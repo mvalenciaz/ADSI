@@ -12,7 +12,7 @@ switch ($i) {
                 echo "Dia Miercoles <br>";
                 break;
     default:
-        echo "Un dia del fin se semana";
+        echo "Un dia del fin de semana";
         break;
 }*/
 
