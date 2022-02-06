@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,10 @@
     <title>CRUD</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
+
 <body>
+    <?php include_once "./views/menu.php" ?>
     <script src="./js//bootstrap.min.js"></script>
 </body>
+
 </html>
