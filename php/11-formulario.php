@@ -7,7 +7,7 @@
     <title>Elementos de Formulario</title>
 </head>
 <body>
-    <form action="./" method="GET">
+    <form action="" method="GET">
     <p><b>Sexo</b></p>
     <label>
         <input type="radio" name="sexo" value="Masculino">
