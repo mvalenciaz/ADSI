@@ -1,3 +1,8 @@
+<?php
+  define('APP_URL', 'http://localhost/ADSI/ADSI/php/crud');
+  
+?>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">CRUD</a>
@@ -7,7 +12,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Insert</a>
+          <a class="nav-link" aria-current="page" href="<?php echo APP_URL;?>/insert/">Insert</a>
         </li>
       </ul>
     </div>
