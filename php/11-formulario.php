@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Elementos de Formulario</title>
 </head>
 <body>
-    <form action="11-formulario.php" method="GET">
-    <p>Sexo</p>
+    <form action="./" method="GET">
+    <p><b>Sexo</b></p>
     <label>
         <input type="radio" name="sexo" value="Masculino">
         Masculino:
@@ -19,15 +19,34 @@
         Femenino:
     </label>
     <br>
+     
+    <p><b>Roles</b></p>
+     <label>
+        <input type="checkbox" name="roles[]" value="Administrador">
+        Administrador
+    </label>
+
+    <label>
+        <input type="checkbox" name="roles[]" value="Editor">
+        Editor
+    </label>
+
+    <label>
+        <input type="checkbox" name="roles[]" value="Moderador">
+        Moderador
+    </label>
+    <br>
+    <label>
+        Imagen
+        <br>
+        <input type="file" name="image">
+    </label>
+    <br>
     <button type="submit">Enviar</button>
+    <br>
+     </form>
     
-
-
-    </form>
-    <?php
-    $sexo = $_REQUEST['sexo'];
-    echo "El sexo del usuario es $sexo <br>";
-
-    ?>
+    
+    
 </body>
 </html>
